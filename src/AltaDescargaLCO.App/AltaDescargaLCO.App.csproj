@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AltaDescargaLCO.Domain\AltaDescargaLCO.Domain.csproj" />
+    <ProjectReference Include="..\AltaDescargaLCO.Infrastructure\AltaDescargaLCO.Infrastructure.csproj" />
+    <ProjectReference Include="..\AltaDescargaLCO.DataAccess\AltaDescargaLCO.DataAccess.csproj" />
+    <ProjectReference Include="..\AltaDescargaLCO.AzureIntegration\AltaDescargaLCO.AzureIntegration.csproj" />
+    <ProjectReference Include="..\AltaDescargaLCO.Application\AltaDescargaLCO.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

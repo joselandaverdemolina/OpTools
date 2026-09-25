@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AltaDescargaLCO.Domain\AltaDescargaLCO.Domain.csproj" />
+    <ProjectReference Include="..\AltaDescargaLCO.DataAccess\AltaDescargaLCO.DataAccess.csproj" />
+    <ProjectReference Include="..\AltaDescargaLCO.AzureIntegration\AltaDescargaLCO.AzureIntegration.csproj" />
+    <ProjectReference Include="..\AltaDescargaLCO.Infrastructure\AltaDescargaLCO.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
